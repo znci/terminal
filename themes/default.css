@@ -1,0 +1,30 @@
+:root {
+	--log: #c7eb4a;
+	--warn: #c0b421;
+	--error: #c21e1e;
+	--info: #1e9fc2;
+	--debug: #37d4ff;
+	--trace: #9c1ec2;
+	--fatal: #ff0000;
+}
+.type-log {
+	color: var(--log);
+}
+.type-warn {
+	color: var(--warn);
+}
+.type-error {
+	color: var(--error);
+}
+.type-info {
+	color: var(--info);
+}
+.type-debug {
+	color: var(--debug);
+}
+.type-trace {
+	color: var(--trace);
+}
+.type-fatal {
+	color: var(--fatal);
+}
