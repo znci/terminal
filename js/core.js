@@ -11,7 +11,7 @@ const space = (int) => {
 }
 
 console.write = (text, type) => {
-	const termContent = termConfig.terminalElement.querySelector(".content");
+	const termContent = termConfig.terminalElement.querySelector(termConfig.terminalContent);
 	termContent.innerHTML += `<div class="type-${type}">${text}</div>`
 }
 
@@ -88,7 +88,8 @@ terminal.initialise = (object) => {
 		"initMessage": initMsg,
 		"terminalContainer": terminal,
 		"terminalElement": terminalContainer,
-		"terminalInput": object.terminalInput
+		"terminalInput": object.terminalInput,
+		"terminalContent": object.terminalContent,
 	};
 
 	cLog(initMsg)

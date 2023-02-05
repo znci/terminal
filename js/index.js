@@ -3,7 +3,8 @@
 terminal.initialise({
 	"initMessage": "znci Version 1.0.0",
 	"terminalContainer": ".console",
-	"terminalInput": ".console .bottom input"
+	"terminalInput": ".console .bottom input",
+	"terminalContent": ".console .content"
 })
 
 terminal.createCommand(
