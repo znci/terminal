@@ -1,11 +1,11 @@
 :root {
-	--log: #93bbe4;
-	--warn: #c0b421;
-	--error: #c21e1e;
-	--info: #617c97;
-	--debug: #779abd;
-	--trace: #c2961e;
-	--fatal: #ff9100;
+	--log: #d1c6b5;
+	--warn: #616f7c;
+	--error: #627d98;
+	--info: #6b645c;
+	--debug: #aaa193;
+	--trace: #9c1ec2;
+	--fatal: #ff0000;
 }
 .type-log {
 	color: var(--log);
